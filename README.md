@@ -9,7 +9,7 @@ Example Maven project generated using `maven-archetype-quickstart`
 
 [https://jitpack.io/#masx200/leetcode-treenode-java](https://jitpack.io/#masx200/leetcode-treenode-java)
 
-[![Release](https://jitpack.io/v/masx200/leetcode-treenode-java.svg)](https://jitpack.io/#jitpack/leetcode-treenode-java)
+[![Release](https://jitpack.io/v/masx200/leetcode-treenode-java.svg)](https://jitpack.io/#masx200/leetcode-treenode-java)
 
 To use it in your Maven build add:
 
@@ -30,7 +30,7 @@ and the dependency:
 <dependency>
     <groupId>com.github.masx200</groupId>
     <artifactId>leetcode-treenode-java</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
