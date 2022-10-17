@@ -40,7 +40,7 @@ public class TreeNode {
         }
         ans += String.join(",", array);
         ans += "]";
-        System.out.println(ans);
+//        System.out.println(ans);
         return ans;
     }
 
