@@ -12,19 +12,19 @@ public class TreeNode {
   public  TreeNode left = null;
   public  TreeNode right = null;
 
-    TreeNode() {
+   public TreeNode() {
     }
 
-    TreeNode(int x) {
+   public TreeNode(int x) {
         val = x;
     }
 
-    TreeNode(int x, TreeNode left) {
+  public  TreeNode(int x, TreeNode left) {
         val = x;
         this.left = left;
     }
 
-    TreeNode(int x, TreeNode left, TreeNode right) {
+  public  TreeNode(int x, TreeNode left, TreeNode right) {
         this.left = left;
         val = x;
         this.right = right;
