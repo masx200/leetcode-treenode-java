@@ -11,7 +11,7 @@
 
     <name>leetcode-treenode-java</name>
     <url>https://jitpack.io/#masx200/leetcode-treenode-java/1.0.0</url>
-   <repositories>
+    <repositories>
         <repository>
             <id>mavenCentral</id>
             <url>https://repo1.maven.org/maven2/</url>
@@ -37,11 +37,11 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>./src/main/java</sourceDirectory>
-        <testSourceDirectory>./src/test/java</testSourceDirectory>
+        <sourceDirectory>./src/main/</sourceDirectory>
+        <testSourceDirectory>./src/test/</testSourceDirectory>
         <plugins>
 
-             <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>

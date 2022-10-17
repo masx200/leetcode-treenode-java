@@ -15,9 +15,9 @@ class TreeNodeTest {
 
     @Test
     void constructTree() {
-        assertEquals("[1,2,3,4,5,6]", TreeNode.constructTree((new Integer[]{1, 2, 3, 4,5,6})).toString());
+        assertEquals("[1,2,3,4,5,6]", TreeNode.constructTree((new Integer[]{1, 2, 3, 4, 5, 6})).toString());
         assertEquals(null, TreeNode.constructTree((new Integer[]{})));
         assertEquals("[1,2,3,4]", TreeNode.constructTree((new Integer[]{1, 2, 3, 4})).toString());
-        assertEquals("[1,2,3,4,5]", TreeNode.constructTree((new Integer[]{1, 2, 3, 4,5})).toString());
+        assertEquals("[1,2,3,4,5]", TreeNode.constructTree((new Integer[]{1, 2, 3, 4, 5})).toString());
     }
 }
