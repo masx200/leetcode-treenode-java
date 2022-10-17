@@ -11,7 +11,12 @@
 
     <name>leetcode-treenode-java</name>
     <url>https://jitpack.io/#masx200/leetcode-treenode-java/1.0.0</url>
-
+   <repositories>
+        <repository>
+            <id>mavenCentral</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
