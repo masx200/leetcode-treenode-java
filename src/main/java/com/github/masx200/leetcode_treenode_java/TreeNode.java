@@ -31,7 +31,7 @@ public class TreeNode {
     }
 
     // Decodes your encoded data to tree.
-    private static TreeNode deserialize(Integer[] nums) {
+    public static TreeNode deserialize(Integer[] nums) {
         if (nums.length == 0) {
             return null;
         }
@@ -81,7 +81,7 @@ public class TreeNode {
     }
 
     // Encodes a tree to a single string.
-    private String serialize(TreeNode root) {
+    public static String serialize(TreeNode root) {
         if (root == null) return null;
         String ans = "[";
         LinkedList<String> array = new LinkedList<>();
