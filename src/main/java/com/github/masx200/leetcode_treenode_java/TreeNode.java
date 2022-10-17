@@ -5,16 +5,29 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author huangkaiyan
- * @date 20200917
+ *
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
+
+    TreeNode() {
+    }
 
     TreeNode(int x) {
         val = x;
+    }
+
+    TreeNode(int x, TreeNode left) {
+        val = x;
+        this.left = left;
+    }
+
+    TreeNode(int x, TreeNode left, TreeNode right) {
+        this.left = left;
+        val = x;
+        this.right = right;
     }
 
     // Decodes your encoded data to tree.
