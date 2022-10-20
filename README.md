@@ -5,7 +5,7 @@ LeetCode树类题目调试辅助类。提供了一个TreeNode类，包括val，l
 
 # example
 
-Example Maven project generated using `maven-archetype-quickstart`
+
 
 [https://jitpack.io/#masx200/leetcode-treenode-java](https://jitpack.io/#masx200/leetcode-treenode-java)
 
